@@ -6,7 +6,7 @@ These settings in your config.plist can restrict which macOS versions OpenCore w
 
 ### Security -> SecureBootModel
 
-OpenCore by default has [Apple Secure Boot](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) enabled.
+OpenCore by default has [Apple Secure Boot](https://k-pers.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#what-is-apple-secure-boot) enabled.
 This enables security features such as the verification of macOS' `boot.efi`, with the side effect of restricting which macOS versions OpenCore will boot.
 
 * Big Sur and Above (11.0+): The recommended value is `Default`.

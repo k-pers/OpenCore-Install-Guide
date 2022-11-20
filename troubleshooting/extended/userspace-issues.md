@@ -145,7 +145,7 @@ This error is directly related to the stage at which macOS will write certain NV
 To resolve, we have a few options:
 
 * 300 series Intel Fix(ie. Z390):
-  * [SSDT-PMC](https://dortania.github.io/Getting-Started-With-ACPI/)
+  * [SSDT-PMC](https://k-pers.github.io/Getting-Started-With-ACPI/)
 * Others can set the following in their config.plist:
   * LegacyEnable -> YES
   * LegacyOverwrite -> YES

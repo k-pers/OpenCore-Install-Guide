@@ -64,31 +64,31 @@ module.exports = {
             ariaLabel: 'Language Menu',
             items: [{
                 text: 'Home Site',
-                link: 'https://dortania.github.io/'
+                link: 'https://k-pers.github.io/'
             },
             {
                 text: 'Getting Started With ACPI',
-                link: 'https://dortania.github.io/Getting-Started-With-ACPI/'
+                link: 'https://k-pers.github.io/Getting-Started-With-ACPI/'
             },
             {
                 text: 'OpenCore Post-Install',
-                link: 'https://dortania.github.io/OpenCore-Post-Install/'
+                link: 'https://k-pers.github.io/OpenCore-Post-Install/'
             },
             {
                 text: 'OpenCore Multiboot',
-                link: 'https://dortania.github.io/OpenCore-Multiboot/'
+                link: 'https://k-pers.github.io/OpenCore-Multiboot/'
             },
             {
                 text: 'GPU Buyers Guide',
-                link: 'https://dortania.github.io/GPU-Buyers-Guide/'
+                link: 'https://k-pers.github.io/GPU-Buyers-Guide/'
             },
             {
                 text: 'Wireless Buyers Guide',
-                link: 'https://dortania.github.io/Wireless-Buyers-Guide/'
+                link: 'https://k-pers.github.io/Wireless-Buyers-Guide/'
             },
             {
                 text: 'Anti Buyers Guide',
-                link: 'https://dortania.github.io/Anti-Hackintosh-Buyers-Guide/'
+                link: 'https://k-pers.github.io/Anti-Hackintosh-Buyers-Guide/'
             },
             ]
         },
@@ -122,7 +122,7 @@ module.exports = {
             },
                 '/installer-guide/opencore-efi',
                 'ktext',
-            ['https://dortania.github.io/Getting-Started-With-ACPI/', 'Getting started with ACPI'],
+            ['https://k-pers.github.io/Getting-Started-With-ACPI/', 'Getting started with ACPI'],
                 '/config.plist/',
             ]
         },
@@ -220,28 +220,28 @@ module.exports = {
             title: 'Post Install',
             collapsable: false,
             children: [
-                ['https://dortania.github.io/OpenCore-Post-Install/', 'Post-Install'],
+                ['https://k-pers.github.io/OpenCore-Post-Install/', 'Post-Install'],
                 {
                     title: 'Universal',
                     collapsable: true,
                     sidebarDepth: 1,
                     children: [
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/security', 'Security and FileVault'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/audio', 'Fixing Audio'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/oc2hdd', 'Booting without USB'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/update', 'Updating OpenCore, kexts and macOS'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/drm', 'Fixing DRM'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/iservices', 'Fixing iServices'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/pm', 'Fixing Power Management'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/universal/sleep', 'Fixing Sleep'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/usb/', 'Fixing USB'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/security', 'Security and FileVault'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/audio', 'Fixing Audio'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/oc2hdd', 'Booting without USB'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/update', 'Updating OpenCore, kexts and macOS'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/drm', 'Fixing DRM'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/iservices', 'Fixing iServices'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/pm', 'Fixing Power Management'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/universal/sleep', 'Fixing Sleep'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/usb/', 'Fixing USB'],
                     ]
                 },
                 {
                     title: 'Laptop Specifics',
                     collapsable: true,
                     children: [
-                        ['https://dortania.github.io/OpenCore-Post-Install/laptop-specific/battery', 'Fixing Battery Read-outs'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/laptop-specific/battery', 'Fixing Battery Read-outs'],
 
                     ]
                 },
@@ -249,26 +249,26 @@ module.exports = {
                     title: 'Cosmetics',
                     collapsable: true,
                     children: [
-                        ['https://dortania.github.io/OpenCore-Post-Install/cosmetic/verbose', 'Fixing Resolution and Verbose'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui', 'Add GUI and Boot-chime'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/cosmetic/verbose', 'Fixing Resolution and Verbose'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/cosmetic/gui', 'Add GUI and Boot-chime'],
                     ]
                 },
                 {
                     title: 'Multiboot',
                     collapsable: true,
                     children: [
-						['https://dortania.github.io/OpenCore-Multiboot/', 'OpenCore Multiboot'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap', 'Setting up LauncherOption'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/multiboot/bootcamp', 'Installing BootCamp'],
+						['https://k-pers.github.io/OpenCore-Multiboot/', 'OpenCore Multiboot'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/multiboot/bootstrap', 'Setting up LauncherOption'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/multiboot/bootcamp', 'Installing BootCamp'],
                     ]
                 },
                 {
                     title: 'Miscellaneous',
                     collapsable: true,
                     children: [
-                        ['https://dortania.github.io/OpenCore-Post-Install/misc/rtc', 'Fixing RTC'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock', 'Fixing CFG Lock'],
-                        ['https://dortania.github.io/OpenCore-Post-Install/misc/nvram', 'Emulated NVRAM'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/misc/rtc', 'Fixing RTC'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/misc/msr-lock', 'Fixing CFG Lock'],
+                        ['https://k-pers.github.io/OpenCore-Post-Install/misc/nvram', 'Emulated NVRAM'],
                     ]
                 },
             ]
